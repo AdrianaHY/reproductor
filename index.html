@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Reproductor</title>
+  </head>
+  <body align = "center">
+    <h1>Reproductor de audio</h1>
+    <audio src = "assets/beatles.mp3" id = "cancion"></audio>
+
+    <section id="volumeTime">
+      <input type="range" min="0" max="313" step="0.1" value="0.5" id="rango"/>
+    </section>
+
+    <button type="button" id="play" onclick="playAudio()">▶</button>
+    <button type="button" id="pause" onclick="pauseAudio()">〃</button>
+    <button type="button" id="stop" onclick="stopAudio()">■</button>
+    <button type="button" id="volMas" onclick="subirVolumen()">🔼</button>
+    <button type="button" id="volMenos" onclick="bajarVolumen()">🔽</button>
+    <button type="button" id="retroceder" onclick="atrasar()">⏪</button>
+    <button type="button" id="avanzar" onclick="adelantar()">⏩</button>
+
+    <script src = "assets/js/main.js"></script>
+  </body>
+</html>
