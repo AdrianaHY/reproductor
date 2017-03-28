@@ -1,0 +1,21 @@
+body {
+  background-color:  	#191970;
+  background-image: url("http://static.vix.com/es/sites/default/files/btg/tech.batanga.com/files/Los-mejores-reproductores-de-musica-para-Android-5.jpg");
+}
+h1 {
+  background-color:  	#D3D3D3;
+  color:#000000;
+  font-size: 40px;
+  font-family: "Helvética";
+}
+button {
+  text-align: center;
+  background-color: #A9A9A9;
+  border: none;
+  color: #000000;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px
+}
